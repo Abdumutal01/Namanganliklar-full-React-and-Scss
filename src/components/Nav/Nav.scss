@@ -1,0 +1,18 @@
+@import '../../assets/scss/main.scss';
+
+.nav {
+    margin: 20px 0px;
+    padding: 0px 3px;
+
+    &__list {
+        @include display;
+        gap: 30px;
+    }
+    &__link{
+        font-size: 20px;
+        color: $color88;
+    }
+    &__link:active{
+        color:$color28;
+    }
+}

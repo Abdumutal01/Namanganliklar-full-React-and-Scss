@@ -1,0 +1,50 @@
+@import '../../assets//scss/main.scss';
+
+.header {
+    padding: 44px 0px 23px;
+    background-color: $headerBgColor;
+
+    &__nav {
+        @include display;
+        justify-content: space-between;
+    }
+
+    &__list {
+        @include display;
+        gap: 25px;
+    }
+
+    &__btn {
+        @include display;
+        gap: 3px;
+        padding: 8px;
+        border: none;
+        border-radius: 8px;
+        background-color: $colorFF;
+        font-size: 21px;
+        color: $color53;
+    }
+
+    &__tgmBtn {
+        @include display;
+        gap: 10px;
+        color: $colorFF;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        border-radius: 10px;
+        background: $btnBGColor;
+    }
+
+    &__imgBox {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    &__reaklamaImg {
+        width: 100%;
+    }
+}

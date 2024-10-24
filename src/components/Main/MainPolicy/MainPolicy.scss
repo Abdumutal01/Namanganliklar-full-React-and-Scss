@@ -1,0 +1,13 @@
+@import '../../../assets//scss//main.scss';
+
+
+.main__policy {
+    margin-top: 56px;
+}
+
+.policy__general {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 55% 30%;
+    justify-content: space-between;
+}

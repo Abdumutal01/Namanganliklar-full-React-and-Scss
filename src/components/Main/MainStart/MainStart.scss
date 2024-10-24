@@ -1,0 +1,36 @@
+@import '../../../assets//scss/main.scss';
+
+.d-flex {
+    @include display;
+    border-right: 2px solid red;
+    padding-right: 71px;
+    padding-left: 30px;
+    gap: 25px;
+}
+
+.d-flex:nth-child(4) {
+    border-right: 0px;
+}
+
+.illBox {
+    margin-top: 64px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, auto);
+
+    &__inner {
+        color: $color00;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    &__span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    
+}
+
+

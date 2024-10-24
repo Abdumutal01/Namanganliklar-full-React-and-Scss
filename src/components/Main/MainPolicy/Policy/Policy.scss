@@ -1,0 +1,70 @@
+@import '../../../../assets//scss/main.scss';
+
+.policy {
+
+    &__title {
+        width: 534px;
+        color: $color00;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    &__box {
+        @include display;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    &__text {
+        width: 512px;
+        color: $color43;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    &__date {
+        color: $color76;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 11px;
+    }
+
+    // &__rightDiv {}
+
+    &__rightBox {
+        background-color: $colorF6;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    &__line {
+        margin: 14px 0px 18px;
+        height: 3px;
+        border: 2px solid #E4E4E4;
+    }
+
+    &__ucellImg {
+        width: 100%;
+        display: flex;
+        margin: 20px auto 0px;
+    }
+
+    &__btn {
+        border: none;
+        display: block;
+        color: $colorFF;
+        font-size: 17px;
+        font-weight: 500;
+        margin: 40px auto;
+        line-height: 20px;
+        border-radius: 8px;
+        padding: 10px 30px;
+        background: $bgColor29;
+    }
+
+}

@@ -1,0 +1,42 @@
+@import '../../../../assets/scss/main.scss';
+
+.home {
+    &__list {
+        display: flex;
+        padding: 28px;
+        margin-top: 34px;
+        border-radius: 10px;
+        background: $colorEF;
+        justify-content: space-between;
+    }
+
+    &__item,
+    &__btn {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    &__item {
+        color: $color00;
+
+        span {
+            margin-right: 17px;
+
+            i {
+                font-size: 24px;
+                color: rgba(255, 139, 54, 0.9);
+            }
+
+        }
+    }
+
+    &__btn {
+        border: none;
+        padding: 8px;
+        color: $colorFF;
+        padding-left: 15px;
+        border-radius: 8px;
+        background: $btnBGColor2;
+    }
+}

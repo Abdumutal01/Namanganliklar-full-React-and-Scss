@@ -1,0 +1,23 @@
+@import '../../../../assets/scss/main.scss';
+.homeEnd{
+    @include display;
+    gap: 70px;
+    margin: 40px 0px 20px;
+    padding: 40px 20px 0px;
+    background-color: $colorF6;
+    &__data{
+        @include display;
+    }
+    &__title{
+        width: 526px;
+        font-size: 24px;
+        font-weight: 500;
+        color: $bgColor29;
+        line-height: 28px;
+    }
+    &__span{
+        color: $color33;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
